@@ -1611,7 +1611,7 @@ template {
     max-width: 576px;
     width: 90%;
   }
-  body {
+  .hotel-info {
     padding-top: 70px;
   }
   .navbar--mobile--fixed {
