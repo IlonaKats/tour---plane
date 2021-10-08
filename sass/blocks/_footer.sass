@@ -1,0 +1,128 @@
+.footer
+	background-color: $dark
+	color: $light
+	padding-top: 109px
+	padding-bottom: 46px
+	&__nodekor
+		text-decoration: none
+		color: inherit
+	&-wrapper
+		display: grid
+		grid-template-columns: repeat(4, minmax(min-content, 1fr))
+		grid-gap: 20px
+		grid-auto-rows: minmax(40px, min-content)
+		align-items: start
+	&__logo
+		width: 166px
+		grid-row: 1 / 3
+		align-self: center
+	&__categories
+		grid-row: 1 / 4
+	&__social
+		&-links
+			display: flex
+			align-items: center
+			min-width: 83px
+			justify-content: space-between
+		&-network
+			display: flex
+			align-items: center
+			grid-row: 2 / 4
+			grid-column: span 2
+	&__contact
+		&-details
+			grid-column: span 2
+		&-form
+			grid-column: span 2
+	&__legal
+		justify-self: end
+
+	&__form
+		display: flex
+		align-items: baseline
+		justify-content: space-between
+		flex-wrap: wrap
+
+	&__ul
+		padding: 0
+		margin: 0
+		list-style: none
+	&__title
+		font-style: normal
+		font-weight: bold
+		text-transform: uppercase
+		font-size: 18px
+		line-height: 23px
+		margin: 0 0 16px 0
+		&--inline
+			margin: 0 43px 0 0
+		&--mb-3
+			margin-bottom: 35px
+			&--contact
+				margin-top: 12px
+				margin-bottom: 25px
+	&__item
+		display: flex
+		align-items: flex-start
+		font-style: normal
+		font-weight: 400
+		font-size: 14px
+		line-height: 22.4px
+		color: $footer-text-color
+		&--mb2
+			margin-bottom: 20px
+		&-text
+			margin: 0
+	&__text
+		color: $footer-text-color
+		margin-bottom: 22px
+		font-style: normal
+		font-weight: normal
+		font-size: 14px
+		line-height: 22.4px
+	&__icon
+		&-wrapper
+			min-width: 40px
+	&__link
+		text-decoration: none
+		color: inherit
+	&__input
+		width: 100%
+		&-group
+			margin-bottom: 15px
+			flex-basis: 48%
+	&__message
+		margin-bottom: 22px
+		flex-basis: 100%
+	&__button
+		padding-top: 18px
+		padding-bottom: 18px
+
+	&__info
+
+	&__bottom
+		padding-top: 92px
+		display: grid
+		grid-template-columns: 1fr 136px
+		&-link
+			text-decoration: none
+			color: #fff
+			display: block
+			margin-right: 12px
+			font-style: normal
+			font-weight: normal
+			font-size: 12px
+			line-height: 15px
+			&:first-child
+				margin-left: 136px
+			&:last-child
+				margin-right: 0
+		&-links
+			grid-column: 1 / 2
+			display: flex
+			align-items: center
+			justify-content: center
+			// padding-left: 136px
+
+	&__pay-icons
+		grid-column: 2 / 3
