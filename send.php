@@ -34,8 +34,8 @@ try {
 
     // Настройки вашей почты
     $mail->Host       = 'smtp.gmail.com'; // SMTP сервера вашей почты
-    $mail->Username   = 'kats.glo.academy@gmail.com'; // Логин на почте
-    $mail->Password   = 'hmfetmp$#g'; // Пароль на почте
+    $mail->Username   = '*********@gmail.com'; // Логин на почте
+    $mail->Password   = '**********'; // Пароль на почте
     $mail->SMTPSecure = 'ssl';
     $mail->Port       = 465;
     $mail->setFrom('kats.glo.academy@gmail.com', 'ilona Kats'); // Адрес самой почты и имя отправителя
