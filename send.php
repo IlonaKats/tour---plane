@@ -41,7 +41,7 @@ try {
     $mail->setFrom('*******.academy@gmail.com', 'ilona Kats'); // Адрес самой почты и имя отправителя
 
     // Получатель письма
-    $mail->addAddress('ilona.itc@gmail.com');
+    $mail->addAddress('****.itc@gmail.com');
 
 
 
